@@ -18,7 +18,7 @@
         <div class="box">
 
             <h5>Shortened URL:</h5>
-            <div class="short-url-box">{{ short_url }}</div>
+            <div class="short-url-box">{{ request.url_root }}{{ short_url }}</div>
         </div>
     </div>
 </body>
