@@ -1,0 +1,45 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #38598b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: auto;
+    height: 90px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e7eaf6;
+}
+
+
+.container {
+    background-color: white;
+    max-width: 100%;
+    padding: 117px;
+    text-align: center; /* Center content horizontally within the container */
+}
+
+.box {
+    border: 1px solid ;
+    border-radius: 5px;
+    padding: 70px;
+    margin-bottom: 20px;
+    display: inline-block; /* Ensure the box is only as wide as its content */
+}
+
+.short-url-box {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Times New Roman", serif;
+
+}
