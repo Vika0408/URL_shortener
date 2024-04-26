@@ -51,5 +51,5 @@ def redirect_url(short_url):
         return "URL not found",
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+'''if __name__ == "__main__":
+    app.run(debug=True)'''
