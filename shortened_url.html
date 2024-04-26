@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortened URL</title>
+
+    <link rel="stylesheet" href="../static/shortened_url_styles.css"> <!-- Include your CSS file here -->
+
+</head>
+<body>
+    <header>
+        <h1>URL Shortener</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="box">
+
+            <h5>Shortened URL:</h5>
+            <div class="short-url-box">{{ request.url_root }}{{ short_url }}</div>
+        </div>
+    </div>
+</body>
+</html>
